@@ -1,0 +1,19 @@
+{
+  "name": "userservice",
+  "version": "1.0.0",
+  "description": "A Simple service that gets list of users with parents details",
+  "scripts": {
+    "dev": "nodemon --env-file=.env server.js",
+    "start": "node --env-file=.env server.js"
+    
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "neo4j-driver": "^5.27.0",
+    "nodemon": "^3.1.7"
+  }
+}
